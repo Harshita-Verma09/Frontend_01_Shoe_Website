@@ -1,48 +1,69 @@
-#  Simon Says Game
+# The Shoe Company Landing Page
 
-A simple browser-based **Simon Says Color Memory Game** built using HTML, CSS, and JavaScript. The game generates a sequence of colors, and the player must repeat it in the correct order. The sequence gets longer with each level.
+A modern, responsive landing page for **The Shoe Company** built with HTML, CSS (TailwindCSS), and JavaScript.
 
----
+## Features
 
-## 📸 Preview
+- Responsive navigation bar with hamburger menu for mobile
+- Smooth scrolling navigation
+- Hero section with brand imagery
+- "How it works" section with visual highlights
+- About Us section
+- Customer testimonials
+- Contact section with embedded Google Map and social links
+- Clean, modern design using TailwindCSS utility classes
 
-![Preview Screenshot](screenshot.png)  
-(*Replace with your own screenshot or GIF if desired*)
+## Getting Started
 
----
+### Prerequisites
 
-##  Features
+- [Node.js](https://nodejs.org/) (for TailwindCSS build, if you want to customize styles)
+- [npm](https://www.npmjs.com/) (for TailwindCSS build)
 
--  Dynamic color sequence generation
--  Memory challenge that increases difficulty
--  Game resets automatically on wrong input
--  Clean and responsive design
+### Installation
 
----
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/the-shoe-company.git
+   cd the-shoe-company
+   ```
 
-##  How to Play
+2. **Install dependencies (if using TailwindCSS):**
+   ```sh
+   npm install
+   ```
 
-1. Press any key to start the game.
-2. Watch carefully as the buttons flash.
-3. Repeat the color sequence by clicking the buttons in order.
-4. If you succeed, the sequence grows!
-5. If you make a mistake, the game ends and shows your score.
+3. **Build TailwindCSS (optional, if you want to customize):**
+   ```sh
+   npm run build
+   ```
 
----
+4. **Open `index.html` in your browser.**
 
-##  Tech Stack
+### File Structure
 
-- **HTML**
-- **CSS**
-- **Vanilla JavaScript**
+```
+.
+├── images/           # All images and icons
+├── index.html        # Main HTML file
+├── output.css        # Compiled TailwindCSS file
+├── index.js          # JavaScript for menu toggle
+└── README.md         # Project documentation
+```
 
----
+## Usage
 
-##  Folder Structure
+- Click the hamburger icon on mobile to open/close the navigation menu.
+- Navigate to different sections using the navbar links.
+- Contact information and social media links are provided in the Contact section.
 
-```bash
- simon-game/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+## Customization
+
+- Replace images in the `images/` folder with your own branding.
+- Edit text content in `index.html` as needed.
+- To change styles, edit TailwindCSS classes or update the CSS.
+
+## Credits
+
+- Designed and developed by **Harshita Verma**
+- Built with [TailwindCSS](https://tailwindcss.com/)
